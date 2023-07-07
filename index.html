@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website prtfolio v2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../custom-scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<a href="https://lordicon.com/"></a>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href='https://unicons.iconscout.com/release/v4.0.8/css/line.css' rel='stylesheet'>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav cont">
+          <h2 class="nav_logo"><a href="#">Hesham Crazy</a></h2>
+
+          <ul class="menu_items">
+            <img src="images/times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#service" class="nav_link">Service</a></li>
+            <li><a href="#portfolio" class="nav_link">Project</a></li>
+            <li><a href="#Contact" class="nav_link">Contact</a></li>
+          </ul>
+          <img src="images/bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="row cont">
+          <div class="column">
+            <h2>hello .. These are my skills .. <br />Application Developer , Full Stack web</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, to? Consectetur enim obcaecati velit quibusdam iure, perspiciatis accusantium, voluptatibus possimus cum voluptates dolorum optio ab vitae. Praesentium voluptas quia voluptates at aperiam aliquid vitae autem!</p>
+            <div class="buttons">
+              <button class="btn">Read More</button>
+              <button class="btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="column">
+            <img src="images/undraw_product_iteration_kjok.svg" alt="heroImg" class="hero_img" />
+          </div>
+        </div>
+        <img src="images/gg.png" alt="" class="curveImg" />
+      </section>
+    </main>
+<!-- *************************** -->
+<section class="service" id="service">
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <div class="content">
+          <i class="fas fa-code"></i>
+          <h3>Full stack web</h3>
+        </div>
+      </div>
+      <div class="back">
+        <div class="content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            nam expedita exercitationem?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <div class="content">
+          <i class="fa-brands fa-android"></i>
+                    <h3>Application Developer</h3>
+        </div>
+      </div>
+      <div class="back">
+        <div class="content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            nam expedita exercitationem?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <div class="content">
+          <i class='bx bxs-pencil'></i>
+                    <h3>Graphic Design</h3>
+        </div>
+      </div>
+      <div class="back">
+        <div class="content">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            nam expedita exercitationem?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ************************ -->
+
+<section class="portfolio" id="portfolio">
+  <div class="contt">
+    <div class="image-box">
+      <div class="image">
+        <img class="img1" src="images/Admin-Dashboard.jpg" alt="">
+      </div>
+      <div class="image">
+        <img class="img2" src="images/ashtaghil.jpg" alt="">
+      </div>
+      <div class="image">
+        <img class="img3" src="images/IMG_20230617_050542_(1898_x_870_pixel).png" alt="">
+      </div>
+      <div class="image">
+        <img class="img4" src="images/IMG_20230705_141609_(1898_x_856_pixel).jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *************************** -->
+
+
+<section class="contact-us" id="Contact">
+  <h2 class="title">Contact Us</h2>
+  <form id="contact-form" onsubmit="sendEmail(); reset(); return false;" method="post" action="index1.php">
+      <div class="form-group">
+          <label for="name">Name<span class="required">*</span></label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+          <label for="email">Email<span class="required">*</span></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+      </div>
+      <div class="form-group">
+          <label for="message">Message<span class="required">*</span></label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="write your message here" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" name="submit">Send</button>
+  </form>
+  <div class="social-icons">
+      <a href="https://www.facebook.com/heshamcrazy19"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/message/TULP5HVFSUH3A1?src=qr"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/heshamcrazy19/"><i class="fab fa-instagram"></i></a>
+      <a href="https://t.me/heshamcrazy"><i class="fab fa-telegram"></i></a>
+      <a href="https://github.com/heshamcrazy1910?tab=projects"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+  </body>
+</html>
